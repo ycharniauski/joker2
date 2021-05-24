@@ -1,0 +1,10 @@
+@import '../../../assets/variables.scss';
+
+.patients {
+  width: 100%;
+  font-size: 14px;
+  font-family: 'Courier';
+  table-layout: fixed;
+
+  border-collapse: collapse;
+}

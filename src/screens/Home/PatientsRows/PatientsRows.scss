@@ -1,0 +1,24 @@
+@import '../../../assets/variables.scss';
+
+.patients-rows {
+  &__head {
+    tr {
+      background-color: $table-th-bg;
+      text-align: center;
+      word-break: break-word;
+
+      th {
+        &:first-child,&:last-child {
+          width: 20px;
+        }
+      }
+      
+      &:first-child {
+        border-bottom: solid 1px #ccc;
+        th {
+          padding: 8px 0;
+        }
+      }
+    }
+  }
+}
